@@ -26,4 +26,5 @@ def test_division():
 
 
 def test_division_by_zero():
-    assert division(5, 0) == "Error: Division by zero"
+    with pytest.raises(ValueError):
+        division(50, 0)
