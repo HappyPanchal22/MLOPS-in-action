@@ -10,7 +10,7 @@ def multiplication(x, y):
 
 def division(x, y):
     if y == 0:
-        return "Error: Division by zero"
+        raise ValueError("Cannot divide by zero")
     return x/ y
 
 def main():
