@@ -1,2 +1,14 @@
 venv
 \__pycache__
+
+# Python junk
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Airflow/Docker junk
+logs/
+plugins/
+model/*.sav
+.DS_Store
