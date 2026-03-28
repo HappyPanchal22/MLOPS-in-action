@@ -1,0 +1,16 @@
+Feature,Type,Stat Test,Test Statistic,P-Value,Drift Detected
+housing,categorical,Chi-Square,2007.9183,0.00e+00,✅
+job,categorical,Chi-Square,854.1263,4.73e-177,✅
+education,categorical,Chi-Square,427.1181,1.79e-93,✅
+marital,categorical,Chi-Square,70.2376,5.60e-16,✅
+y,categorical,Chi-Square,51.8916,5.87e-13,✅
+loan,categorical,Chi-Square,34.157,5.08e-09,✅
+poutcome,categorical,Chi-Square,16.1629,3.09e-04,✅
+contact,categorical,Chi-Square,8.6181,3.33e-03,✅
+default,categorical,Chi-Square,1.6169,2.04e-01,❌
+balance,numerical,Kolmogorov-Smirnov,0.2532,1.44e-174,✅
+pdays,numerical,Kolmogorov-Smirnov,0.1327,8.56e-48,✅
+age,numerical,Kolmogorov-Smirnov,0.1315,6.38e-47,✅
+previous,numerical,Kolmogorov-Smirnov,0.107,3.36e-31,✅
+campaign,numerical,Kolmogorov-Smirnov,0.0995,5.36e-27,✅
+duration,numerical,Kolmogorov-Smirnov,0.0698,1.65e-13,✅
